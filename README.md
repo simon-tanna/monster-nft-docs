@@ -29,19 +29,31 @@
 
 #### Provider - Alchemy
 
+- Alchemy is the client that will allow the application front end to interact with the blockchain.
+
 #### Open Sea
+
+- NFT marketplace
 
 #### Pinata
 
+- A service that pins the minted NFT to IPFS Storage for reliable access to token
+
 #### IPFS Storage
+
+- A decentralized storage system
 
 #### React/NextJs
 
-#### Signer
+- Framework used to build front-end UX/UI
+
+#### Signer - MetaMask
+
+Wallet provider that allows user to connect account and request a monster NFT.
 
 ### AAD Interactions
 
-#### Front-End and Smart Contracts
+#### Front-End and Smart Contracts via Alchemy
 
 The front-end will use Alchemy to connect to a node on the test-network to read the current state. When a user wants to request a monster, they will be required to sign the transaction by connecting to their MetaMask account.
 
@@ -56,4 +68,6 @@ The ERC721 will have 2 functions that interact with the ChainlinkVRF:
 - A request to mint an NFT that interacts with the VRF Coordinator Interface by sending the .
 - A response that fulfills the requested random words(numbers) from chainlink and emits the minted NFT
 
-#### 
+#### NFT state to Open Sea
+
+A minted monster NFT will be viewable on Open Sea via the token address.
