@@ -2,7 +2,7 @@
 
 ## Application Architecture Diagram
 
-<- Insert Image Here ->
+![Application Architecture Diagram](/docs/img/Labrys%20Monster%20NFT%20AAD%20Updated.png)
 
 ### AAD Elements
 
